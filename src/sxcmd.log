@@ -1,0 +1,79 @@
+### CustomExplorer log file, revision E-2010.12 (build 1012) ###
+### created at 06:43:35 on Mon Jun 26 2017 (Linux AMD64) ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 0 23
+wv_move_window CustomWaveView 126 54
+wv_resize_window CustomWaveView 900 550
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 398 98
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_select_list_item FileDialog.FileList testbench.ac0
+wv_move_dialog FileDialog 796 171
+wv_move_dialog FileDialog 398 64
+wv_move_dialog FileDialog 398 57
+wv_move_dialog FileDialog 399 49
+wv_move_dialog FileDialog 401 41
+wv_move_dialog FileDialog 403 34
+wv_move_dialog FileDialog 405 26
+wv_move_dialog FileDialog 407 18
+wv_move_dialog FileDialog 409 9
+wv_move_dialog FileDialog 414 0
+wv_move_dialog FileDialog 417 0
+wv_move_dialog FileDialog 420 0
+wv_move_dialog FileDialog 422 0
+wv_move_dialog FileDialog 424 0
+wv_press_button FileDialog.Ok
+wv_select_hierview_item {FILE0:D0:testbench.ac0}
+wv_select_hierview_item {FILE0:D0:testbench.ac0}
+wv_dclick_hierview_item {FILE0:D0:testbench.ac0}
+wv_select_hierview_item {FILE0:D0:testbench.ac0} {toplevel}
+wv_select_sigview_item par(psrr)
+wv_horz_scroll sigview 11
+wv_horz_scroll sigview 6
+wv_select_sigview_item par(psrr)
+wv_dclick_sigview_item par(psrr)
+wv_select_toolbar_item {Measurement Tool}
+wv_move_dialog MeasurementTool 232 76
+wv_select_dialog MeasurementTool
+wv_set_text MainWindow.XValue {0}
+wv_close_dialog MeasurementTool
+wv_select_toolbar_item {Equation Builder}
+wv_move_dialog EquationBuilder 250 76
+wv_select_dialog EquationBuilder
+wv_set_text MainWindow.XValue {0}
+wv_set_text EquationBuilder.Input {}
+wv_close_dialog EquationBuilder
+wv_set_text MainWindow.XValue {0}
+wv_select_menu_item {Axes} {X-Axis Type} {Log10}
+wv_set_text MainWindow.XValue {0}
+wv_select_toolbar_item {New WaveView}
+wv_horz_scroll sigview 206
+wv_select_sigview_item vdb(vop,von)
+wv_shift_select_sigview_item vp(vop,von)
+wv_drag_sigview_item vdb(vopp,vonp)
+wv_shift_select_sigview_item vdb(vopp,vonp)
+wv_select_sigview_item vdb(vop,von)
+wv_select_sigview_item vdb(vop,von)
+wv_dclick_sigview_item vdb(vop,von)
+wv_select_sigview_item vp(vop,von)
+wv_dclick_sigview_item vp(vop,von)
+wv_select_menu_item {Axes} {X-Axis Type} {Log10}
+wv_sigview_context_menu vp(vop,von)
+wv_select_wv_item WV2.PANEL2:1.LEGEND
+wv_select_panel WV2.PANEL2:1.LEGEND
+wv_waveview_context_menu WV2.PANEL2:1.LEGEND
+wv_select_context_menu_item {Cut}
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+# wv_press_button Confirmation.Ok

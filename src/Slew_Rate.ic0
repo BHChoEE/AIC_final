@@ -1,0 +1,38 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "05:23:33 06/26/2017 "
+* "netlist" "Slew_Rate.sp "
+* "runtitle" "*2017 aic"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ clk1 =   1.5000        
++ clk2 =   0.            
++ net1 = 750.0000m       
++ net2 = 750.0000m       
++ net3 = 750.0000m       
++ net4 = 750.0000m       
++ vb1 = 900.0000m       
++ vb2 = 550.0000m       
++ vb3 = 800.0000m       
++ vcm = 750.0000m       
++ vdd =   1.5000        
++ vin = 750.0000m       
++ vip = 750.0000m       
++ von = 745.9629m       
++ vop = 745.9639m       
++ vx = 750.0000m       
++ vy = 750.0000m       
++ xota.1 =   1.2235        
++ xota.2 =   1.2235        
++ xota.3 = 434.6492m       
++ xota.4 = 434.6492m       
++ xota.5 = 688.1337m       
++ xota.6 = 688.1337m       
++ xota.7 =  53.5098m       
++ xota.8 = 745.9634m       
+***   END: Saved Operating Point ***                     

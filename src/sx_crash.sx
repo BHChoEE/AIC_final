@@ -1,0 +1,11 @@
+### Custom WaveView session file (version E-2010.12 build 1012) ###
+### saved at 03:19:03 on Mon Jun 26 2017 ###
+wdf 0 "/home/raid7_2/userb03/b03022/AIC/output_swing.tr0" load=used 
+wdf 1 "/home/raid7_2/userb03/b03022/AIC/output_swing.tr0" load=used 
+wdf 2 "/home/raid7_2/userb03/b03022/AIC/Slew_Rate.tr0" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 geo=560:90:700:400 "name=waveview 1" 
+  panel_begin linear pidx=0 spath=true 
+    line src=wdf lidx=0 fidx=2 "delim=." sigtype=1 "name=v(vop)" attr=1:1:1:0 autoset=true disp=show 
+  panel_end
+waveview_end

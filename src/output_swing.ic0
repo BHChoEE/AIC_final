@@ -1,0 +1,30 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "02:02:26 06/26/2017 "
+* "netlist" "output_swing.sp "
+* "runtitle" "*2017 aic"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vb1 = 900.0000m       
++ vb2 = 550.0000m       
++ vb3 = 800.0000m       
++ vcm = 750.0000m       
++ vdd =   1.5000        
++ vin = 750.0000m       
++ vip = 750.0000m       
++ von = 960.3799m       
++ vop = 960.3799m       
++ xota.1 =   1.2223        
++ xota.2 =   1.2223        
++ xota.3 = 458.5764m       
++ xota.4 = 458.5764m       
++ xota.5 = 700.7180m       
++ xota.6 = 700.7180m       
++ xota.7 =  60.7459m       
++ xota.8 = 960.3799m       
+***   END: Saved Operating Point ***                     

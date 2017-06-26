@@ -1,0 +1,57 @@
+***** HSPICE -- G-2012.06-SP2 32-BIT (Nov 27 2012) RHEL32 ******
+ Input File: testbench.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   b03022               HOSTNAME: cad38
+ lic: HOSTID: e41f13bed5a4         PID:      5768
+ lic: Using FLEXlm license file:
+ lic: 26585@lsntu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 14-jun-2018/2017.03
+ lic: 79(in_use)/90(total) FLOATING license(s) on SERVER lsntu
+ lic:
+ init: begin read circuit files,  cpu clock=  4.00E-02
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/ad
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/ad
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/behave
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/bjt
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/burr_b
+                         rn
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/comlin
+                         ear
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/dio
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/fet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/lin_te
+                         ch
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/pci
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/signet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/ti
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/tline
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/xilinx
+       option runlvl
+       option post =     1.00
+ init: end read circuit files,  cpu clock=  4.00E-02 peak memory=        99 mb
+ init: begin check errors,  cpu clock=  4.00E-02
+ init: end check errors,  cpu clock=  5.00E-02 peak memory=        99 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  5.00E-02
+       establish matrix -- done,  cpu clock=  5.00E-02 peak memory=        99 mb
+       re-order matrix -- done,  cpu clock=  5.00E-02 peak memory=        99 mb
+ init: end setup matrix,  cpu clock=  5.00E-02 peak memory=        99 mb
+ dcop: begin dcop,  cpu clock=  5.00E-02
+ dcop: end dcop,  cpu clock=  5.00E-02 peak memory=        99 mb                tot_iter=      76
+ output: testbench.ma0
+ sweep: ac ac0    begin, #sweeps= 121 cpu clock=  5.00E-02
+ ac: frequency=    1.26E-03
+ ac: frequency=    1.58E-02
+ ac: frequency=    2.51E-01
+ ac: frequency=    3.98E+00
+ ac: frequency=    6.31E+01
+ ac: frequency=    1.00E+03
+ ac: frequency=    1.58E+04
+ ac: frequency=    2.51E+05
+ ac: frequency=    3.98E+06
+ ac: frequency=    6.31E+07
+ ac: frequency=    1.00E+09
+ sweep: ac ac0    end,  cpu clock=  6.00E-02 peak memory=       100 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

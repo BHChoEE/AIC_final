@@ -1,0 +1,290 @@
+### CustomExplorer log file, revision E-2010.12 (build 1012) ###
+### created at 02:10:17 on Mon Jun 26 2017 (Linux AMD64) ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 0 23
+wv_move_window CustomWaveView 126 54
+wv_resize_window CustomWaveView 900 550
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 398 98
+wv_select_dialog FileDialog
+wv_set_text FileDialog.FileName {}
+wv_vert_scroll FileDialog.FileList 0
+wv_select_list_item FileDialog.FileList output_swing.tr0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_vert_scroll FileDialog.FileList 0
+wv_select_dialog FileDialog
+wv_move_dialog FileDialog 398 62
+wv_move_dialog FileDialog 398 53
+wv_move_dialog FileDialog 398 44
+wv_move_dialog FileDialog 398 35
+wv_move_dialog FileDialog 399 28
+wv_move_dialog FileDialog 399 22
+wv_move_dialog FileDialog 399 16
+wv_move_dialog FileDialog 399 11
+wv_move_dialog FileDialog 399 6
+wv_move_dialog FileDialog 399 3
+wv_move_dialog FileDialog 399 1
+wv_move_dialog FileDialog 399 0
+wv_move_dialog FileDialog 398 0
+wv_press_button FileDialog.Apply
+wv_press_button FileDialog.Ok
+wv_select_hierview_item {FILE1:D0:output_swing.tr0}
+wv_drag_hierview_item {FILE1:D0:output_swing.tr0}
+wv_select_hierview_item {FILE1:D0:output_swing.tr0}
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_toolbar_item {Delete WaveView}
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_set_text MainWindow.XValue {0}
+wv_set_text MainWindow.XValue {0}
+wv_select_hierview_item {FILE1:D0:output_swing.tr0}
+wv_dclick_hierview_item {FILE1:D0:output_swing.tr0}
+wv_select_hierview_item {FILE1:D0:output_swing.tr0}
+wv_select_hierview_item {FILE0:D0:output_swing.tr0}
+wv_select_hierview_item {FILE1:D0:output_swing.tr0} {toplevel}
+wv_select_sigview_item v(von)
+wv_dclick_sigview_item v(von)
+wv_select_sigview_item v(vop)
+wv_dclick_sigview_item v(vop)
+wv_select_sigview_item v(von)
+wv_dclick_sigview_item v(von)
+wv_select_sigview_item v(von)
+wv_dclick_sigview_item v(von)
+wv_select_sigview_item v(von)
+wv_dclick_sigview_item v(von)
+wv_select_toolbar_item {New WaveView}
+wv_select_sigview_item v(von)
+wv_dclick_sigview_item v(von)
+wv_select_menu_item {File} {Import Waveform File ...}
+wv_move_dialog FileDialog 398 98
+wv_select_dialog FileDialog
+wv_move_dialog FileDialog 796 98
+wv_set_text FileDialog.FileName {output_swing.tr0}
+wv_select_list_item FileDialog.FileList Slew_Rate.tr0
+wv_move_dialog FileDialog 796 94
+wv_move_dialog FileDialog 796 91
+wv_move_dialog FileDialog 796 87
+wv_move_dialog FileDialog 796 82
+wv_move_dialog FileDialog 796 74
+wv_move_dialog FileDialog 796 65
+wv_move_dialog FileDialog 797 56
+wv_move_dialog FileDialog 798 45
+wv_move_dialog FileDialog 798 34
+wv_move_dialog FileDialog 798 24
+wv_move_dialog FileDialog 798 13
+wv_move_dialog FileDialog 798 4
+wv_move_dialog FileDialog 798 0
+wv_move_dialog FileDialog 797 0
+wv_move_dialog FileDialog 796 0
+wv_move_dialog FileDialog 794 0
+wv_move_dialog FileDialog 793 0
+wv_move_dialog FileDialog 792 0
+wv_press_button FileDialog.Ok
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0}
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0}
+wv_dclick_hierview_item {FILE2:D0:Slew_Rate.tr0}
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_sigview_item v(vop)
+wv_drag_sigview_item v(vop)
+wv_drag_sigview_item v(vop)
+wv_select_sigview_item v(vop)
+wv_dclick_sigview_item v(vop)
+wv_select_menu_item {File} {Export Waveform Data}
+wv_move_dialog WaveformExportParameters 321 22
+wv_select_dialog WaveformExportParameters
+wv_set_text WaveformExportParameters.OutFile {}
+wv_close_dialog WaveformExportParameters
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.Yes
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_panel WV1.PANEL2:1 1.52041e-05 0.801114
+wv_release_wv_item WV1 276 272
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_panel WV1.PANEL1:1 1.56122e-05 1.29114
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_waveview_context_menu WV1.PANEL1:1.LINE1
+wv_select_context_menu_item {Cut}
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+wv_select_menu_item {File} {Update Waveform Files}
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_menu_item {File} {Update Waveform Files}
+wv_move_dialog ReloadFiles 368 274
+wv_select_dialog ReloadFiles
+wv_move_dialog ReloadFiles 378 76
+wv_select_dialog ReloadFiles
+wv_press_button ReloadFiles.YesAll
+wv_select_hierview_item {FILE2:D0:Slew_Rate.tr0} {toplevel}
+wv_select_sigview_item v(von)
+wv_select_sigview_item v(von)
+wv_dclick_sigview_item v(von)
+wv_move_dialog Confirmation 378 76
+wv_select_dialog Confirmation
+wv_press_button Confirmation.Ok
+## TYPE S abort
+## memory usage 2.56MB
+#session saved in: 'sx_crash.sx'
+### auto-generated spxrc ###
+### General Settings ###
+gui_font small
+startup_mode full
+show_console false
+replay_delay 1
+backingstore internal
+gui_color bright
+sx_editor vi
+private_colormap false
+wv_iconizable false
+user_colors false
+thick_line false
+okbtn_autocenter false
+delete_confirm true
+reload_confirm true
+precision_digits 3
+browser_width 250
+### SPICE lint ###
+spice_netlist_erc off
+spice_inst_casesensitive false
+spice_parm_casesensitive false
+spice_sort_subckt_cells false
+spice_cell_index_depth true
+spice_smart_sort false
+use_hspiceini false
+lint_suppress_list 
+lint_min_resistance    1.000E-05
+lint_max_capacitance    1.000E-03
+lint_min_mos_width    1.000E-08
+lint_max_mos_width    1.000E-02
+lint_min_mos_length    1.000E-08
+lint_max_mos_length    1.000E-02
+### Custom WaveView ###
+waveview_background black
+cycle_color_by panel+waveview
+clamp_ac_phase true
+left_button_action zoom
+init_xy_mode hvsel
+group_display_order file
+def_ac_stack complex
+def_acx_type linear
+def_acy_type linear
+def_trx_type linear
+def_try_type linear
+def_fft_xscale log
+def_fft_yscale db
+signal_dnd_mode move
+logic_style_default vcd
+signal_font normal
+signal_name name+file
+signal_path path+name
+load_data_at_open false
+grid_default on
+grid_brightness normal
+auto_y_axes off
+alias_bracket true
+flatten_single_point_sweep true
+signame_popup false
+show_ytype false
+smart_hsort false
+sweep_expand user
+remove_dupsig false
+flatten_segs true
+convert_s_to_yz true
+sync_alias true
+real_time_scroll true
+snap_marker false
+btn_add_hcursor false
+bar_grip_scroll false
+auto_x_extend false
+hide_panel_div false
+logic_cursor_snap true
+logic_glitch_highlight true
+stack_auto_fit on
+wdf_filter allfiles
+horz_panel_height 80
+default_panels_perrow 4
+default_hist_binsize 10
+max_visible_panels 0
+lines_per_panel 0
+min_panel_height 20
+analog_panel_height 120
+max_log_span 12
+logic_panel_height 24
+panel_spacing 0
+smith_char_impedance    5.000E+01
+d2a_xtol true
+d2a_fullext true
+d2a_high_value    3.300E+00
+d2a_low_value    0.000E+00
+d2a_rise_slew    1.000E-11
+d2a_fall_slew    1.000E-11
+a2d_single_threshold true
+a2d_center_threshold    2.500E+00
+a2d_high_threshold    4.000E+00
+a2d_low_threshold    1.000E+00
+dm_low_margin 10.0
+dm_high_margin 90.0
+dm_low_logic 0.0
+dm_high_logic 3.3
+SX_DM_DMScale false
+SNR_inc_floor_noise false

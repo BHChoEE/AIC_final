@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='G-2012.06-SP2 32-BIT'
+.TITLE '*2017 aic'
+ gain             phase_margin     unit_gain_freq   power             
+ temper           alter#            
+   94.1351          61.9830         4.152e+07        4.238e-04        
+   25.0000        1                 

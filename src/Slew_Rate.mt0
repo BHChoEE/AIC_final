@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='G-2012.06-SP2 32-BIT'
+.TITLE '*2017 aic'
+ rise_time        fall_time        slew_rate_rise   slew_rate_fall    
+ temper           alter#            
+  6.729e-09        7.970e-09         11.8883          10.0371         
+   25.0000        1                 

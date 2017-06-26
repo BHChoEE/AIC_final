@@ -1,0 +1,36 @@
+**opamp.sp
+.subckt opamp VDD GND Vb1 Vb2 Vb3 Vcm Vin Vip Von Vop
+*params
+.param M12 = 0.51
+.param M34 = 5.75
+.param M56 = 6
+.param M78 = 4.8
+.param M90 = 35
+.param Mab = 6.25
+.param Mcd = 1.5
+
+.param W_l = 1.2u
+.param L_l = 0.9u
+
+*stage 1
+M7  1   Vb3 VDD VDD P_18 W= W_l L= L_l M= M78
+M8  2   Vb3 VDD VDD P_18 W= W_l L= L_l M= M78
+M5  5   Vb2 1   1   P_18 W= W_l L= L_l M= M56
+M6  6   Vb2 2   2   P_18 W= W_l L= L_l M= M56
+M3  5   Vb1 3   3   N_18 W= W_l L= L_l M= M34
+M4  6   Vb1 4   4   N_18 W= W_l L= L_l M= M34
+M1  3   Vin 7   7   N_18 W= W_l L= L_l M= M12
+M2  4	Vip 7   7   N_18 W= W_l L= L_l M= M12
+*CMFB
+M13 7	5   GND GND N_18 W= W_l L= L_l M= Mcd
+M14 7   6   GND GND N_18 W= W_l L= L_l M= Mcd
+*stage2
+M9  Von 5   VDD VDD P_18 W= W_l L= L_l M= M90
+M10 Vop 6   VDD VDD P_18 W= W_l L= L_l M= M90
+M11 Von 8   GND GND N_18 W= W_l L= L_l M= Mab
+M12 Vop 8   GND GND N_18 W= W_l L= L_l M= Mab
+*passive components
+R1  8 Von 500K
+R2  8 Vop 500K
+
+.ends

@@ -1,0 +1,44 @@
+* "simulator" "HSPICE" 
+* "version" "G-2012.06-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "05:23:44 06/26/2017 "
+* "netlist" "testbench.sp "
+* "runtitle" "*2017 aic"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vb1 = 900.0000m       
++ vb2 = 550.0000m       
++ vb3 = 800.0000m       
++ vcm = 750.0000m       
++ vdd =   1.5000        
++ vdd_p =   1.5000        
++ vi =   0.            
++ vin = 750.0000m       
++ vinp = 750.0000m       
++ vip = 750.0000m       
++ vipp = 750.0000m       
++ von = 745.9634m       
++ vonp = 745.9639m       
++ vop = 745.9633m       
++ vopp = 745.9628m       
++ xota.1 =   1.2235        
++ xota.2 =   1.2235        
++ xota.3 = 434.6492m       
++ xota.4 = 434.6492m       
++ xota.5 = 688.1337m       
++ xota.6 = 688.1337m       
++ xota.7 =  53.5098m       
++ xota.8 = 745.9634m       
++ xota2.1 =   1.2235        
++ xota2.2 =   1.2235        
++ xota2.3 = 434.6492m       
++ xota2.4 = 434.6492m       
++ xota2.5 = 688.1337m       
++ xota2.6 = 688.1337m       
++ xota2.7 =  53.5098m       
++ xota2.8 = 745.9634m       
+***   END: Saved Operating Point ***                     
